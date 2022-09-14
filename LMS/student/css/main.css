@@ -1,0 +1,76 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+a{
+    text-decoration: none;
+    color:rgba(55, 124, 189, 0.959);
+}
+
+/* Header */
+header {
+    padding         : 1px;
+    display: block;
+    z-index: 1 !important;
+}
+
+/* Dashboard List */
+#dashboard-list {
+    background-color: rgb(220 229 232 / 39%);
+
+}
+
+.dash_ul{
+    /* background-color: rgb(220 229 232 / 39%); */
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -10px !important;
+}
+
+
+.dash_item>a {
+    list-style     : none;
+    text-decoration: none;
+    border         : none;
+    outline        : none;
+    font-size: 18px;
+
+}
+.dash_item{
+    padding: 5px 0px;
+
+}
+
+#dash_container{
+    height: 100vh;
+}
+
+
+/* Course submit form in bootstrap modal  */
+input, textarea{
+    padding: 3px; 
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    outline: none;
+    margin-top: 2px;
+}
+label{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-left: -4px;
+
+}

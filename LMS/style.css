@@ -1,0 +1,107 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh !important;
+}
+
+/* End Global Tags Here */
+
+/* Hero Section  */
+#heroSection {
+    background         : url("img/hero.jpg");
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+#hero-left-p {
+    text-align      : center;
+    color           : white;
+    background-color: #0000008c;
+    border-radius   : 3px;
+}
+
+/* End Hero Section Here */
+
+
+
+/* Testimonial Section Starts Here */
+.container-testimonial {
+    border          : 2px solid #ccc;
+    background-color: #eee;
+    border-radius   : 5px;
+    padding         : 16px;
+    margin          : 16px 0
+}
+
+.container-testimonial::after {
+    content: "";
+    clear  : both;
+    display: table;
+}
+
+.container-testimonial img {
+    float        : left;
+    margin-right : 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.container-testimonial span {
+    font-size   : 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .container-testimonial {
+        text-align: center;
+    }
+
+    .container-testimonial img {
+        margin : auto;
+        float  : none;
+        display: block;
+    }
+}
+
+/* End Testimonial Section Here */
+
+
+/* Contact Form Section Starts Here */
+#contactForm-section {
+    background-color: rgba(47, 102, 119, 0.767);
+}
+
+.contact-fields {
+    border-radius: 4px;
+    padding      : 10px;
+    outline      : none;
+    border       : none;
+}
+
+/* End Contact Form Section Here */
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#footer-p {
+    background-color: black;
+    color           : white;
+    text-align      : center;
+    padding         : 10px;
+    bottom          : 0;
+    height          : 40px;
+}
