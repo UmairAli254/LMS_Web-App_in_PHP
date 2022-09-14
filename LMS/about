@@ -1,3 +1,0 @@
-I have removed fontawesome files from the vendors folder bacause there are too many files and that's why it was not uploading to github
-
-so, next time use fontawesome's CDN or use downlaod and integrate all the files of it in the vendors folder
